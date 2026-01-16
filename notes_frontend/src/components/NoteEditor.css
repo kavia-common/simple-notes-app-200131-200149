@@ -1,0 +1,64 @@
+.NoteEditor {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 12px;
+  min-height: 0;
+}
+
+.NoteEditor-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.NoteEditor-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+
+.NoteEditor-subtitle {
+  margin: 4px 0 0 0;
+  color: rgba(17, 24, 39, 0.65);
+  font-size: 13px;
+}
+
+.NoteEditor-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.NoteEditor-form {
+  display: grid;
+  gap: 12px;
+  min-height: 0;
+}
+
+.NoteEditor-empty {
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.NoteEditor-emptyCard {
+  border: 1px dashed rgba(17, 24, 39, 0.25);
+  border-radius: var(--radius);
+  padding: 18px;
+  background: rgba(255, 255, 255, 0.6);
+  max-width: 520px;
+}
+
+.NoteEditor-emptyTitle {
+  margin: 0 0 6px 0;
+  font-weight: 900;
+}
+
+.NoteEditor-emptyDesc {
+  margin: 0;
+  color: rgba(17, 24, 39, 0.7);
+  font-size: 14px;
+}
